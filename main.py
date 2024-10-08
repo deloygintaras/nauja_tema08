@@ -46,15 +46,20 @@
 # skaičius. Funkcijoje suskaičiuokite ir išveskite šių dviejų skaičių sumą,
 # kartu išvedant ir patį atliekamą veiksmą (pvz 7 + 2 = 9). Iškvieskite šią
 # funkciją keletą kartų.
-
-
-
-
+# import random
+# def f1():
+#     a = random.randint(1, 10)
+#     b = random.randint(1, 10)
+#     suma = a + b
+#     print(f"{a} + {b} = {a + b}")
+#
+# f1()
 
 # 6. Sukurkite ir iškvieskite funkciją, kurioje kintamuosiuose būtų saugoma
 # informacija apie policininką (vardas, pavardė, amžius, alga, etatas,
 # specializacija). Išveskite šią informaciją suformatuotai (pavyzdžiui įterpkite
 # į sakinį, ar išveskite sąrašu ar pan.).
+
 
 
 
