@@ -112,16 +112,31 @@ import random
 # vardui saugoti ir įrašykite vardą. Iškvieskite abi funkcijas, perduodant
 # kintamąjį joms.
 
-
-
-
-
+# vardas = "Kostas"
+# def pasisveikinti(vardas):
+#     print("labas", vardas)
+# pasisveikinti(vardas)
+# def pasisv(vardas):
+#     print("viso gero", vardas)
+# pasisv(vardas)
 
 
 # 10.Sukurkite funkciją, kuriai perduotumėte du skaičius. Ši funkcija turi rasti
 # kuris skaičius yra didesnis ir išvesti gautą atsakymą, o jei skaičiai lygūs -
 # tuomet išvesti, kad skaičiai lygūs. Iškvieskite šią funkciją keletą kartų,
 # duodant skirtingus skaičius.
+#
+# def f1():
+#     c = random.randint(1,10)
+#     d = random.randint(1, 10)
+#     if c > d:
+#         print(f"{c} yra didesnis uz {d}")
+#     elif c < d:
+#         print(f"{c} yra mazesnis uz {d}")
+#     else:
+#         print("Skaiciai lygus")
+# for i in range(5):
+#     f1()
 
 
 # 11.Sukurkite funkciją, kuri per argumentus gautų automobilių duomenis
@@ -129,8 +144,11 @@ import random
 # duomenis išvesti kaip nors gražiai formatuotai. Iškvieskite šią funkciją du
 # kartus, perduodant skirtingus duomenis jai.
 
-
-
+# def f1(marke, modelis, metai, darbinis):
+#     print(f"{marke} {modelis}, {metai} gamybos metai, {darbinis} L")
+#     print(end= '\n')
+# f1("BMW", "7 series", 2023, 3.0)
+# f1("Mercedes-Benz", "S-class", 2023, 3.0)
 
 
 
@@ -140,8 +158,23 @@ import random
 # rasti. Sukurkite dar vieną funkciją, kuri sugeneruotų du atsitiktinius
 # skaičius, bei iškviestų kitas 4 funkcijas, perduodant joms sugeneruotus
 # skaičius. Šią bendrąją funkciją iškvieskite keletą kartų.
-
-
+# def sksuma(a, b):
+#     suma = a + b
+#     skirtumas = a - b
+#     sandauga = a * b
+#     dalmuo = a / b if b != 0 else "neribota"
+#     print(f"{a} + {b} = {suma}")
+#     print(f"{a} - {b} = {skirtumas}")
+#     print(f"{a} * {b} = {sandauga}")
+#     print(f"{a} / {b} = {dalmuo}\n")
+# sksuma(5, 9)
+# sksuma(18, 23)
+# def sk():
+#     a = random.randint(1, 10)
+#     b = random.randint(1, 10)
+#     sksuma(a, b)
+# for i in range(3):
+#     sk()
 
 # 13.Susikurkite funkciją, kuri per argumentus priimtų žodžių masyvą.
 # Funkcijoje išveskite visus žodžius iš masyvo atskirose eilutėse, nurodant
@@ -153,6 +186,9 @@ import random
 # jį padalintą iš dviejų. Už funkcijos ribų susikurkite du skaičių masyvus ir
 # užpildykite jį duomenimis. Iškvieskite funkciją du kartus, kiekvieną kartą
 # perduodant skirtingą turimą masyvą.
+
+
+
 
 
 # 15.Susikurkite funkciją, kuri per argumentus priimtų pažymių masyvą, bei
