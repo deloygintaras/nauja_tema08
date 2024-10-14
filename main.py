@@ -445,6 +445,14 @@ import random
 
 # 9. Sukurkite Funkciją kuri priimtų du int skaičius ir atspausdintų stačiakampį užpildytą žvaigždutėmis.
 # Pirmas int - išoriniam ciklui, antras vidiniam.
+def staciakampis(eilutes, stulpeliai):
+    for _ in range(eilutes):  # Išorinis ciklas - eilutėms
+        print('*' * stulpeliai)  # Vidinis ciklas - stulpeliams
+
+# Pavyzdys
+eilutes = 5  # Eilučių skaičius
+stulpeliai = 10  # Stulpelių skaičius
+staciakampis(eilutes, stulpeliai)
 
 
 
