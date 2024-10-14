@@ -377,18 +377,70 @@ import random
 
 # 6. Sukurkite Funkciją kuri sugeneruotų random int skaičių masyvą ir jį gražintų.
 # Funkcija priima tris int tipo kintamuosius, min, max ir length reikšmėms nustatyti.
-
-
+# def knt(minNum, maxNum, length):
+#     randomNumbers = [random.randint(minNum, maxNum) for _ in range(length)]
+#     return randomNumbers
+#
+# result = knt(1, 100, 5)
+# print(f"skaiciai yra {result}")
 
 
 # 7. Sukurkite Funkciją kuri panaudotų 6toje užduotyje sugeneruotą masyvą (priimtų kaip kintamąjį), susumuotų ir gražintų reikšmę.
+# def knt(minNum, maxNum, length):
+#     randomNumbers = [random.randint(minNum, maxNum) for _ in range(length)]
+#     return randomNumbers
+# def masyvo_sumavimas(masyvas):
+#     suma = sum(masyvas)
+#     return suma
+# result = knt(1, 100, 5)
+# print(f"Skaiciai yra: {result}")
+# suma = masyvo_sumavimas(result)
+# print(f"Suma: {suma}")
+
+# # 8. Sukurkite Funkciją kuri priimtų 6toje užduotyje sugeneruotą masyvą ir gražintų jos skaičių vidurkį (double).
+# def knt(minNum, maxNum, length):
+#     randomNumbers = [random.randint(minNum, maxNum) for _ in range(length)]
+#     return randomNumbers
+# def masyvo_sumavimas(masyvas):
+#     suma = sum(masyvas)
+#     return suma
+# def vidurkis(average):
+#     if len(average) == 0:
+#         return 0.0
+#     return sum(masyvo_sumavimas/ len(masyvo_sumavimas))
+# result = knt(1, 100, 5)
+# print(f"Skaiciai yra: {result}")
+# suma = masyvo_sumavimas(result)
+# print(f"Suma: {suma}")
+# vid = vidurkis(result)
+# print(f"Vidurkis: {vid}")
 
 
-
-
-# 8. Sukurkite Funkciją kuri priimtų 6toje užduotyje sugeneruotą masyvą ir gražintų jos skaičių vidurkį (double).
-
-
+#CHAT GPT
+# def knt(minNum, maxNum, length):
+#     randomNumbers = [random.randint(minNum, maxNum) for _ in range(length)]
+#     return randomNumbers
+#
+# def masyvo_sumavimas(masyvas):
+#     suma = sum(masyvas)
+#     return suma
+#
+# def vidurkis(masyvas):
+#     if len(masyvas) == 0:  # Patikriname, ar masyvas tuščias
+#         return 0.0
+#     return sum(masyvas) / len(masyvas)
+#
+# # Generuojame masyvą
+# result = knt(1, 100, 5)
+# print(f"Skaiciai yra: {result}")
+#
+# # Suskaičiuojame sumą
+# suma = masyvo_sumavimas(result)
+# print(f"Suma: {suma}")
+#
+# # Suskaičiuojame ir atspausdiname vidurkį
+# vid = vidurkis(result)
+# print(f"Vidurkis: {vid}")
 
 
 # 9. Sukurkite Funkciją kuri priimtų du int skaičius ir atspausdintų stačiakampį užpildytą žvaigždutėmis.
